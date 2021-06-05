@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: hospital-manage
+  profiles:
+    active: dev
+
+mybatis:
+  configuration:
+    call-setters-on-nulls: true #设置返回字段不为空，前端不报错
